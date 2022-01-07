@@ -60,7 +60,7 @@
     color: white;
 }
 .todo-list {
-  height: 200px;
+  height: auto;
   width: 500px;
   color: white;
   display: flex;
@@ -75,7 +75,7 @@
 }
 ul {
   list-style: none;
-  height: auto;
+ 
 }
 li {
   height: auto;
@@ -93,8 +93,8 @@ li {
   display: flex;
   padding: 16px;
   gap: 40px;
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
   padding: 20px;
 }
 .mid {
