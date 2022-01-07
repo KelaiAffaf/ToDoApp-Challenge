@@ -60,6 +60,11 @@
 }
 .delete-item {
   color: white;
+  cursor: pointer;
+}
+.left{
+  display: flex;
+  gap: 10px;
 }
 .todo-list {
   height: auto;
@@ -77,7 +82,10 @@
 }
 ul {
   list-style: none;
-  /* height: auto; */
+  width: 457px;
+  height: 110px;
+  overflow: auto;
+  text-align:justify;
 }
 .delete-item{
     color:black
@@ -100,7 +108,7 @@ li {
   gap: 40px;
   /* position: absolute;
   bottom: 0; */
-  padding: 20px;
+  /* padding: 20px; */
 }
 .mid {
   display: flex;
@@ -142,4 +150,8 @@ input[typr="checkbox"] {
     position: absolute;
     bottom: 0;
     margin: 10px 500px;
+}
+.completed {
+  text-decoration: line-through;
+  color: hsl(0, 0%, 98%);
 }
